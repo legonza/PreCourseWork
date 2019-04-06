@@ -9,6 +9,13 @@ Most recent revision:
 
 <head>
     <title>Luis's Portfolio</title>
+	<link href="styles/styles.css"rel="stylesheet" type="text/css" />
+	<style>
+		header {
+			background-color: darkgray;
+		}
+			
+	</style>
 </head>
 
 <body>
@@ -18,15 +25,15 @@ Most recent revision:
 	</header>
     
 	<!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-    <nav>
-		<hr />
+    <nav class="border">
+		<hr style="border: thin dotted red;" />
 		<p><a href="projects.html">Projects</a></p>
 		<p><a href="contact.html">Contact Me</a></p>
 		<p><a href="testimonials.html">Testimonials</a></p>
-		<hr />
+		<hr style="width: 50%; border: 2px solid blueviolet;" />
 	</nav>
     
-    <section id="about-me">
+    <section class="border"id="about-me">
 		<h2><em>About Me</em></h2>
 		<img src= "images/pajaro.jfif" alt="beautiful bird" />
 		
@@ -35,7 +42,7 @@ Most recent revision:
 		<p>Vivamus nec sollicitudin diam, <strong>at posuere augue</strong>. Nunc pulvinar imperdiet massa ut tincidunt. Pellentesque ac tincidunt metus, nec molestie magna.</p>
 	
 	</section>
-	<section id="past-experience">
+	<section id="experience">
 		<h2>Past Experience</h2>
 		<img src= "images/work.jfif" alt="working" />
 		<table>
@@ -86,7 +93,7 @@ Most recent revision:
 		</ul>
 	</section>
 	
-	<footer>
+	<footer style="background-color: fuchsia">
 		<hr />
 		<p>&copy; 2020 Luis Gonzalez. All rights reserved.
 		</p>
