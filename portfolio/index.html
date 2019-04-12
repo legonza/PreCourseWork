@@ -9,7 +9,7 @@ Most recent revision:
 
 <head>
     <title>Luis's Portfolio</title>
-	<link href="styles/styles.css"rel="stylesheet" type="text/css" />
+	<link href="styles/main.css"rel="stylesheet" type="text/css" />
 	<style>
 		header {
 			background-color: darkgray;
@@ -25,52 +25,58 @@ Most recent revision:
 	</header>
     
 	<!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-    <nav class="border">
-		<hr style="border: thin dotted red;" />
+    <nav>
 		<p><a href="projects.html">Projects</a></p>
 		<p><a href="contact.html">Contact Me</a></p>
 		<p><a href="testimonials.html">Testimonials</a></p>
-		<hr style="width: 50%; border: 2px solid blueviolet;" />
+		<div class="clear-float"></div>
 	</nav>
     
-    <section class="border"id="about-me">
+    <article class="border"id="about-me">
 		<h2><em>About Me</em></h2>
-		<img src= "images/pajaro.jfif" alt="beautiful bird" />
-		
+		<img src= "images/pajaro.jfif" alt="beautiful bird" width="250" />
 		<p>Sed nisi est, aliquam non gravida et, euismod id ex. <strong>Praesent molestie metus justo</strong>, non tristique nisl blandit id. Proin porta nisl eros, vitae laoreet eros vestibulum in. Integer faucibus malesuada purus quis consectetur.</p>
-	
 		<p>Vivamus nec sollicitudin diam, <strong>at posuere augue</strong>. Nunc pulvinar imperdiet massa ut tincidunt. Pellentesque ac tincidunt metus, nec molestie magna.</p>
-	
-	</section>
-	<section id="experience">
+		<div class="clear-float"></div>
+	</article>
+	<article id="experience">
 		<h2>Past Experience</h2>
-		<img src= "images/work.jfif" alt="working" />
+		<img src= "images/work.jfif" alt="working" width="250" />
+		<div class="right-content">
 		<table>
 			<caption>Employment History</caption>
-			<tr>
-				<th>Years of Employment</th>
-				<th>Employer</th>
-				<th>Title</th>
-			</tr>
-			<tr>
-				<td>2012-Present</td>
-				<td>Wal-Mart</td>
-				<td>Asset Protection Associate</td>
-			</tr>
-			<tr>
-				<td>2009-2012</td>
-				<td>Pawn America</td>
-				<td>Sales Associate</td>
-			</tr><tr>
-				<td>2008-2009</td>
-				<td>Chipotle</td>
-				<td>Cook</td>
-			</tr>
+			<thead>
+				<tr>
+					<th>Years of Employment</th>
+					<th>Employer</th>
+					<th>Title</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2012-Present</td>
+					<td>Wal-Mart</td>
+					<td>Asset Protection Associate</td>
+				</tr>
+				<tr>
+					<td>2009-2012</td>
+					<td>Pawn America</td>
+					<td>Sales Associate</td>
+				</tr>
+				<tr>
+					<td>2008-2009</td>
+					<td>Chipotle</td>
+					<td>Cook</td>
+				</tr>
+			</body>
 		</table>	
-		
-	</section>
-	<section id="hobbies">
+		</div>
+		<div class="clear-float"></div>
+	</article>
+	<article id="hobbies">
 		<h2><em>Hobbies</em></h2>
+		<img src= "images/work.jfif" alt="working" width="250" />
+		<div class="right-content">
 		<ul>
 			<li>Video Games</li>
 				<ol>
@@ -91,9 +97,11 @@ Most recent revision:
 				<ul>Bonfire</ul>
 				<ul>Swimming</ul>
 		</ul>
-	</section>
-	
-	<footer style="background-color: fuchsia">
+		</div>
+		<div class="clear-float"></div>
+	</article>
+
+	<footer>
 		<hr />
 		<p>&copy; 2020 Luis Gonzalez. All rights reserved.
 		</p>
