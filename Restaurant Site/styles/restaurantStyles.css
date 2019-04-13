@@ -1,0 +1,59 @@
+body {
+	background-color: gold !important;
+	margin: 0px;
+}
+header {
+	padding-top: 30px;
+}
+header, footer {
+	background-color: firebrick; 
+	color: black;
+	height:100px;
+	text-align: center;
+}
+nav {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 18px;
+}
+hr {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+nav a{
+	background-color: black;
+	color: white;
+	padding: 8px;
+	border: thin solid #0d1f2d;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 20px;
+	width: 100px;
+	float: left;
+}
+nav a:hover {
+	background-color: firebrick;
+	color: black;
+	font-weight: bold;
+}
+nav a:active {
+	font-weight: bold;
+}
+.round-button {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	line-height: 1.428571429;
+	text-align: center;
+	padding: 22px 0px;
+}
+.clear-float {
+	clear: both;
+}
+article {
+	text-align: center;
+}
+article {
+	margin-bottom: 30px;
+}
