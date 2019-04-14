@@ -1,4 +1,4 @@
-<DOCTYPE html!>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -14,47 +14,77 @@
 			<h1>CHEEZY PIZZA</h1>
 		</header>
 		<nav>
-			<a class="round-button" href="index.html">Home</a>
-			<a class="round-button" href="menu.html">Menu</a>
-			<a class="round-button" href="contact.html">Contact</a>
+			<a id="grad" class="round-button" href="index.html">Home</a>
+			<a id="grad" class="round-button" href="menu.html">Menu</a>
+			<a id="grad" class="round-button" href="contact.html">Contact</a>
 			<div class="clear-float"></div>
 		</nav>
-		<article>
-			<form>
-				<strong>Name:</strong> <input type="text" /> 
-				<br />
-				<strong>Email:</strong> <input type="text" /> 
-				<br />
-				<strong>Phone:</strong> <input type="text" /> 
-				<br />
-				<strong>Reason for Inquiry:</strong>
-				<select>
-					<option value="default" selected>Catering</option>
-					<option value="private party">Private Party</option>
-					<option value="feedback">Feedback</option>
-					<option value="other">Other</option>
-				</select>
-				<br />
-				<strong>Additional Information:</strong> <textarea type="text"></textarea>
-				<br />
-				<strong>Have you been to the restaurant?</strong>
-				<input type="radio" name="answer" value="No" checked /> No
-				<input type="radio" name="answer" value="Yes" /> Yes
-				<br />
-				<strong>Best days to contact you:</strong>
-				<input type="checkbox" name"answer" value"M" /> M
-				<input type="checkbox" name"answer" value"T" /> T
-				<input type="checkbox" name"answer" value"W" /> W
-				<input type="checkbox" name"answer" value"T" /> T
-				<input type="checkbox" name"answer" value"F" /> F
-				<br />
-				<input type="submit" value="Send Request" />
-			</form>
-		</article>
+		<form>
+            <div class="form-group row">
+                <label for="name" class="col-sm-3 col-form-label">Name</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control input-width" id="name" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-3 col-form-label">Email</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control input-width" id="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="phone" class="col-sm-3 col-form-label">Phone</label>
+                <div class="col-sm-9">
+                    <input type="tel" class="form-control input-width" id="phone" placeholder="Phone">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" for="reason">Reason for Inquiry</label>
+                <div class="col-sm-9">
+                    <select id="reason" class="form-control input-width">
+                        <option value="default" selected>Catering</option>
+                        <option value="private party">Private Party</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" for="additional-info">Additional Information</label>
+                <div class="col-sm-9">
+                    <textarea type="text" class="form-control input-width" placeholder="additional info..."></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3" for="additional-info">Have you ever been to the restaurant?</label>
+                <div class="col-sm-2">
+                    <label class="radio-inline"><input type="radio" class="input-radio" name="optradio" checked>No</label>
+                    <label class="radio-inline"><input type="radio" class="input-radio" name="optradio">Yes</label>
+                </div>
+                <div class="col-sm-7"></div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3">Best days to contact you:</label>
+                <div class="col-sm-2">
+                    <label class="checkbox-inline"><input type="checkbox" value="">M</label>
+                    <label class="checkbox-inline"><input type="checkbox" class="input-checkbox" value="">T</label>
+                    <label class="checkbox-inline"><input type="checkbox" class="input-checkbox" value="">W</label>
+                    <label class="checkbox-inline"><input type="checkbox" class="input-checkbox" value="">Th</label>
+                    <label class="checkbox-inline"><input type="checkbox" class="input-checkbox" value="">F</label>
+                </div>
+                <div class="col-sm-7"></div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9">
+                    <button type="submit" class="btn submit-button">Send Request</button>
+                </div>
+            </div>
+        </form>
 
 		<footer>
 			<hr/>
-			<p>Street, Minneapolis, MN, 55401</p>
+			<p>123 7th Street, Minneapolis, MN, 55401</p>
 			<p>(612) 555-1234</p>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

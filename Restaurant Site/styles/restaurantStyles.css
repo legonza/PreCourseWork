@@ -2,6 +2,13 @@ body {
 	background-color: gold !important;
 	margin: 0px;
 }
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 header {
 	padding-top: 30px;
 }
@@ -32,11 +39,18 @@ nav a{
 	width: 100px;
 	float: left;
 }
+label {
+    text-align: right;
+}
+a {
+	text-decoration: none !important;
+}
 nav a:hover {
 	background-color: firebrick;
 	color: black;
 	font-weight: bold;
 }
+
 nav a:active {
 	font-weight: bold;
 }
@@ -56,4 +70,50 @@ article {
 }
 article {
 	margin-bottom: 30px;
+}
+.input-width {
+	width:350px;
+}
+.input-width {
+    max-width: 300px;
+}
+#grad {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+caption {
+	font-weight:bold;
+	font-size: 1.2em;
+	margin-bottom: 8px;
+}
+table, th, td {
+	border: 1px solid #0d1f2d;
+	border-collapse: collapse;
+	padding: 5px 10px;
+}
+table {
+	width: 90%;
+	margin: auto;
+}
+tr {
+	height: 30px;
+	background-color: black;
+	color: white;
+}
+th {
+	background-color: firebrick;
+	color: white;
+}
+	
+/* Form styling */
+label, fieldset {
+	font-size: 1.1em;
+}
+.submit-button{
+	background-color: firebrick;
+}
+.input-radio {
+	margin-right: 5px;
+}
+.input-checkbox {
+	margin-left: 5px;
 }
