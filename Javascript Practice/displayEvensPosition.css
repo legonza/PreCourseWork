@@ -1,0 +1,16 @@
+.input-radio {
+	margin-right: 5px;
+}
+.input-checkbox {
+	margin-left: 5px;
+}
+label {
+	text-align: right;
+}
+.align-right {
+	text-align: right;
+}
+.input-width {
+	width:350px;
+	max-width: 300px;
+}
