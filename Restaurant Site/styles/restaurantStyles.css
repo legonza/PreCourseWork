@@ -27,6 +27,11 @@ hr {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
+nav i {
+	display: block;
+	margin: 20px;
+	float: left;
+}
 nav a{
 	background-color: black;
 	color: white;
@@ -38,6 +43,9 @@ nav a{
 	margin: 20px;
 	width: 100px;
 	float: left;
+}
+#main-header {
+	margin-bottom:0px;
 }
 label {
     text-align: right;
@@ -117,3 +125,14 @@ label, fieldset {
 .input-checkbox {
 	margin-left: 5px;
 }
+#home-button {
+	background-color: transparent;
+	border-style: none;
+	color: firebrick;
+}
+#home-button:hover {
+	background-color: transparent;
+	border-style: none;
+	color: black;
+}
+
