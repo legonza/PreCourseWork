@@ -135,4 +135,13 @@ label, fieldset {
 	border-style: none;
 	color: black;
 }
+.about-us {
+	align: center;
+}
+p {
+	text-align: center;
+}
+.carousel-text-margin {
+	margin-top: 50px !important;
+}
 
